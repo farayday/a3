@@ -6,6 +6,8 @@ First we need to make sure that we have vim and nginx installed.
 To install vim the command is `sudo pacman -S vim`
 To install nginx first make sure you update your system to ensure that your kernel is up to date for packages with `sudo pacman -Syu`
 To install nginx use `sudo pacman -S nginx`
+We also have to make sure we have the correct directories so make sure to use `mkdir -p /etc/nginx/sites-available` and
+`mkdir -p /etc/nginx/sites-enabled` and `mkdir -p
 
 # Check the nginx status to see if it's up and running
 
